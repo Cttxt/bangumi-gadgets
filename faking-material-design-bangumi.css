@@ -1,0 +1,127 @@
+@-moz-document domain(bangumi.tv)
+{
+* {
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+body.bangumiNeue,
+body.bangumi,
+body {
+    background-color: #f1f1f1;
+}
+#headerNeue2 {
+    background: transparent url(/img/rc2/bg_header_v2.png) repeat-x;
+}
+#headerNeue2 a.logo {
+    background: transparent url(http://bgm.tv/img/rc2/logo_rc2_m.png) left 50% no-repeat;
+}
+.idBadgerNeue .avatar span.avatarNeue {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNDYgNDYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ2IDQ2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMywyM2MyLjksMCw1LjItMi4zLDUuMi01LjJzLTIuMy01LjItNS4yLTUuMnMtNS4yLDIuMy01LjIsNS4yUzIwLjEsMjMsMjMsMjN6IE0yMywyNS42CgljLTMuNSwwLTEwLjQsMS43LTEwLjQsNS4ydjIuNmgyMC43di0yLjZDMzMuNCwyNy4zLDI2LjUsMjUuNiwyMywyNS42eiIvPgo8L3N2Zz4K) !important;
+}
+span.avatarNeue {
+    border-radius: 50%;
+}
+div.idBadgerNeue span.avatarNeue {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+div.commentList,
+div.section_line {
+    background: none;
+}
+#comment_list div.light_even,
+div#comment_list div.light_odd,
+div.postTopic.light_odd,
+#columnSubjectInHomeB,
+.subject_section,
+.SimpleSidePanel,
+#columnA #blog,
+#columnA #index,
+#columnA #group,
+#columnA #friend,
+#columnA #mono,
+#columnA #anime,
+#columnA #book,
+#columnA #game,
+#columnA #music,
+ul.browserList
+li.item {
+    background: #fff;
+    border-radius: 2px;
+    padding: 25px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    margin-bottom: 14px;
+    border-collapse: collapse;
+}
+#comment_list div.light_even:hover,
+div#comment_list div.light_odd:hover,
+div.postTopic.light_odd:hover,
+#columnSubjectInHomeB:hover,
+.subject_section:hover,
+.SimpleSidePanel:hover,
+#columnA #blog:hover,
+#columnA #index:hover,
+#columnA #group:hover,
+#columnA #friend:hover,
+#columnA #mono:hover,
+#columnA #anime:hover,
+#columnA #book:hover,
+#columnA #game:hover,
+#columnA #music:hover,
+ul.browserList
+li.item:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
+}
+ul.innerRightList {
+    width: unset;
+}
+.borderNeue,
+#columnTimelineInnerWrapper {
+    border: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+div#subject_detail {
+    width: 400px;
+}
+textarea.reply,
+input.inputtext {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14) inset;
+}
+input.inputBtn,
+a.fancyBtn {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    background: #4EB1D4 !important;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+input.inputBtn:active,
+a.fancyBtn:active,
+input.inputBtn:hover,
+a.fancyBtn:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14);
+}
+#sliderContainer {
+    background: none;
+    border: 0;
+}
+#sliderContainer.sticky {
+    background: url(/img/b5/bg_sub_list.png) repeat-x #f5f5f5 bottom;
+}
+
+#headerNeue2 #headerSearch {
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    border-radius: 2px;
+    border: none;
+    background: rgba(255, 255, 255, .3);
+    color: rgba(0, 0, 0, .3);
+}
+#headerNeue2 #headerSearch:active,
+#headerNeue2 #headerSearch:hover {
+    background: #fff;
+}
+#headerNeue2 #headerSearch select {
+    border: none;
+}
+}
